@@ -20,7 +20,14 @@ $ docker compose up -d --build
 $ docker compose exec app composer install
 $ docker compose exec app cp .env.example .env
 ```
-
+TO RUN PHP ARTISAN COMMANDS:
+```bash
+$ make app
+```
+TO RUN SQL  COMMANDS:
+```bash
+$ make sql
+```
 http://localhost
 
 
