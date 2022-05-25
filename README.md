@@ -24,6 +24,17 @@ TO RUN PHP ARTISAN COMMANDS:
 ```bash
 $ make app
 ```
+MIGRATIONS & SEEDERS:
+```bash
+$ make app
+$ php artisan migrate
+$php artisan db:seed
+```
+TO TEST BASIC AUTHENTICATION:
+http://localhost/register 
+
+http://localhost/login
+
 TO RUN SQL  COMMANDS:
 ```bash
 $ make sql
